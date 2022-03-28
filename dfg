@@ -2,7 +2,7 @@ getgenv().Prediction =  (  0  )   -- [ PREDICTION: THIS IS ANARCHY IT DOESNT REQ
 
 getgenv().FOV =  (  250  )   -- [ FOV RADIUS: Increases Or Decreases FOV Radius ]
 
-getgenv().AimKey =  (  "c"  )  -- [ TOGGLE KEY: Toggles Silent Aim On And Off ]
+getgenv().AimKey =  (  "k"  )  -- [ TOGGLE KEY: Toggles Silent Aim On And Off ]
 
 --[[
 		Do Not Edit Anything Beyond This Point. 
@@ -36,7 +36,7 @@ getconnections = getconnections
 hookmetamethod = hookmetamethod
 
 local FOV_CIRCLE = Drawing.new("Circle")
-FOV_CIRCLE.Visible = true
+FOV_CIRCLE.Visible = false
 FOV_CIRCLE.Filled = false
 FOV_CIRCLE.Thickness = 1
 FOV_CIRCLE.Transparency = .4
